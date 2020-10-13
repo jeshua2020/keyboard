@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+textarea{
+    position: ;
+    margin-bottom: 20px;
+    width: 20%;
+    padding: 50px;
+    height: 10vh;
+    margin: 0 400px ;
+}
+#keyboard{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    padding: 5px 0;
+    background-color:rgb(119, 115, 115);;
+    transition: bottom o 4s;
+    height: ;
+    user-select: none;
+    height: 60%;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 30px;
+    justify-content: center;
+    align-content: center;
+
+}
+#keyboard--hidden{
+    bottom: -100%;
+}
+#keyboard--keys{
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    outline: none;
+}
+#keyboardkey1{
+    display: flex;
+    width: 100%;
+    padding: 2px;
+}
+.keyboard--key1{
+    margin: 2px;
+    width: 20%;
+}
+#keyboardkey1 button{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+#keyboardkey2{
+    display: flex;
+    width: 100%;
+   padding: 2px;
+}
+.keyboard--key2{
+    margin: 2px;
+    width: 20%;
+}
+#keyboardkey2 button{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+#keyboardkey3{
+    padding: 2px;
+    display: flex;
+    width: 100%;
+}
+.keyboard--key3{
+    margin: 2px;
+    width: 20%;
+}
+#keyboardkey3 button{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+#keyboardkey4{
+    padding: 2px;
+    display: flex;
+    width: 100%;
+}
+.keyboard--key4{
+    margin: 2px;
+    width: 20%;
+}
+#keyboardkey4 button{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+#keyboardkey5{
+    padding: 2px;
+    display: flex;
+    width: 100%;
+}
+.keyboard--key5{
+    margin: 2px;
+    width: 20%;
+}
+#keyboardkey5 button{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#keyboardkey6 button:nth-child(4){
+    width: 370px;
+}
+#keyboardkey6 button:nth-child(9){
+    background-color:rgb(119, 115, 115);
+    width: max-content;
+    padding: 0;
+}
+#keyboardkey6 button:nth-child(8){
+    height: 18px; 
+    padding: 0;
+    margin-top: 20px;
+    margin: 0;
+}
+#keyboardkey6 button:nth-child(10){
+    height: 18px;
+    margin-top: 20px;
+    padding: 0;
+}
+.arrow{
+    margin: 0;
+    padding: 5px;
+}
+#arrow_up{
+    width: 60px;
+    margin: 4px;
+    background-color: black;
+    border-radius: 5px;
+}
+#arrow_down{
+    width: 60px;
+    margin: 2px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+#keyboardkey6 button{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    width: 7.3%
+}
+
+
+
+
+
+
+
